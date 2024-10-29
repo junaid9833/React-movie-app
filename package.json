@@ -2,6 +2,7 @@
   "name": "project1app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://junaid9833.github.io/React-movie-app",
   "dependencies": {
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
@@ -26,7 +27,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "preload": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
